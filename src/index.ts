@@ -18,7 +18,7 @@ document.getElementById("app").innerHTML = `
 `;
 
 // Edit your machine(s) here
-const machine = upgradeFSM;
+const machine = rootFSM;
 
 // Edit your service(s) here
 const service = interpret(machine, { devTools: true });
